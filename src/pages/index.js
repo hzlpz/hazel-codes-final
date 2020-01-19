@@ -43,16 +43,16 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                  {/*  <section id="one">
+                  <section id="one">
                         <header className="major">
-                            <h2>Ipsum <br />lorem dolor aliquam ante commodo
+                            <h2>Ipsum lorem dolor aliquam ante commodo
                             magna sed accumsan arcu neque.</h2>
                         </header>
                         <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-        </section> */}
+        </section> 
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Selected Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,

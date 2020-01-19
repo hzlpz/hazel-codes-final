@@ -236,7 +236,7 @@
 
 		&.major {
 			h2 {
-				font-size: 2em;
+				font-size: 1.55em;
 			}
 		}
 	}
@@ -470,7 +470,7 @@
 			&:after {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 				border-radius: _size(border-radius);
-				border: solid 3px rgba(255,255,255,0.5);
+				border: solid 3px rgba(255,255,255,0.9);
 				color: #fff;
 				content: 'View';
 				display: inline-block;
@@ -537,7 +537,7 @@
 		}
 
 		&.avatar {
-			border-radius: 30%;
+			border-radius: 100%;
 
 			&:before {
 				display: none;
@@ -923,7 +923,7 @@
 
 		> .inner {
 			@include vendor('flex-grow', '1');
-			margin: 0 0 ($size-header-pad * 0.5) 0;
+			margin: 8em 0 ($size-header-pad * 0.5) 0;
 		}
 
 		strong, b {
@@ -939,6 +939,8 @@
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			padding-left: 3em;
+			padding-right: 3em;
 		}
 
 		.image.avatar {
@@ -1356,7 +1358,7 @@
 			header {
 				&.major {
 					h2 {
-						font-size: 1.35em;
+						font-size: 1.5em;
 					}
 				}
 			}
@@ -1381,7 +1383,7 @@
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 
 				h1 {
-					font-size: 1.35em;
+					font-size: 1.50em;
 				}
 			}
 
