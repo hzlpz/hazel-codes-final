@@ -472,7 +472,7 @@
 				border-radius: _size(border-radius);
 				border: solid 3px rgba(255,255,255,0.9);
 				color: #fff;
-				content: 'View';
+				content: 'View Site';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: _font(weight-bold);
@@ -912,7 +912,7 @@
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
 		position: fixed;
-		text-align: left;
+		text-align: center;
 		top: 0;
 		width: $size-header-width;
 
@@ -1277,6 +1277,7 @@
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				position: relative;
 				text-align: center;
+				letter-spacing: 1.5px;
 				top: auto;
 				width: 100%;
 				display: block;
