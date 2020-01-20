@@ -39,8 +39,8 @@ class Gallery extends Component {
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
                     <ul className="actions">
-                            <li><a href="#" className="button">Visit Site</a></li>
-                    </ul> 
+-                            <li><a href="#" className="button">Visit Site</a></li>
+-                    </ul>
                 </article>
             );
         });
